@@ -1,0 +1,261 @@
+.blue{
+    color: #1E50FF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #363636;
+    background: #F8FBFC url(../img/line.svg) no-repeat;
+    background-size: cover;
+
+}
+
+.bg{
+    background-size: auto;
+    background: #ffffff url(../img/Pattern.svg) no-repeat 180px 0;
+
+}
+
+.bg-line{
+    background-size: cover;
+    background: #F8FBFC url(../img/line2.svg) no-repeat 0px 0;
+}
+.bg-line2{
+    background-size: cover;
+    background: #ffffff url(../img/line3.svg) no-repeat 0px 0;
+}
+
+header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center
+}
+
+header.masthead .header-content h1 {
+    font-size: 30px
+}
+
+header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+header.masthead .device-container .screen img {
+    border-radius: 3px
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    header.masthead .header-content {
+        margin-bottom: 0;
+        text-align: left
+    }
+
+    header.masthead .header-content h1 {
+        font-size: 50px
+    }
+
+    header.masthead .device-container {
+        max-width: 325px
+    }
+}
+
+.scale{
+    transform: scale(1.5);
+}
+
+.btn-blue{
+    background: #1E50FF;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    padding: 14px 20px;
+}
+
+.btn-blue:hover, .btn-blue_under:hover{
+    color: white;
+}
+
+.btn-blue_under{
+    background: #1E50FF;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    padding: 8px 27px;
+}
+
+.width525{
+    width: 525px;
+}
+
+.text-gray{
+   color: #636465;
+}
+.font-18{
+    font-size: 18px;
+}
+@media (max-width: 600px) {
+    .width525{
+        width: unset;
+    }
+}
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1400px;
+    }
+
+    .main-image{
+        margin-left: -100px;
+    }
+}
+@media (max-width: 1506px) {
+    .scale{
+        transform: scale(1.3);
+    }
+}
+@media (max-width: 1278px) {
+    .scale{
+        transform: scale(1.24);
+    }
+}
+@media (max-width: 854px) {
+    .scale{
+        transform: scale(1);
+    }
+}
+.font-15{
+    font-size: 15px;
+}
+.cust_card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60px rgba(78, 117, 255, 0.2);
+    border-radius: 15px;
+    padding: 40px;
+}
+.text-darkblue{
+    color: #08299B;
+}
+.max-t-width1{
+    width: 210px;
+}
+.max-t-width{
+    width: 250px;
+}
+
+.light_black{
+    color: rgba(212, 228, 252, 0.93);
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.font-40{
+    font-size: 40px;
+}
+.font-22{
+    font-size: 22px;
+}
+.margin_custom{
+    margin-top: 90px;
+}
+
+@media (max-width: 1140px){
+    .my_fluid{
+        max-width: 200%;
+        margin-left: -160px;
+    }
+}
+
+@media (max-width: 742px) {
+    .font-small{
+        font-size: 15px;
+    }
+    .my_fluid{
+        max-width: 100%;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .text-cust{
+        font-size: 14px;
+    }
+    .head_cust{
+        font-size: 30px;
+    }
+}
+
+.width225{
+    max-width: 320px;
+}
+label{
+    color: #283C7E;
+}
+
+.form-control{
+    border-color: rgba(174, 185, 220, 0.53);
+    border-radius: 10px;
+}
+
+.form-control::placeholder{
+    color: rgba(174, 185, 220, 0.94);
+}
+.padding_custon{
+    padding: 8px 50px;
+}
+.cust_text{
+    margin-top: 20px;
+    color: #283C7E;
+    line-height: 23px;
+    margin-bottom: 60px;
+}
+
+.bg_custom{
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    margin-bottom: 40px;
+    background: white;
+}
+.bg_color{
+    background: #F8FBFC;
+    background-size: cover;
+}
+.bg-cust-light{
+    background: #F5FCFC;
+}
+
+@media (max-width: 400px) {
+    .max-t-width, .max-t-width1{
+        font-size: 13px;
+        width: unset;
+    }
+
+    .cust_card{
+        padding: 15px;
+    }
+    .smaller_t{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .padding_custon{
+        padding: 0;
+    }
+    .btn-blue_under{
+        padding: 8px 27px;
+    }
+}
